@@ -80,11 +80,11 @@ function getWinner(playerMove,computerMove) {
     return winner;
 }
 
-function playToFive() { // call playToCount and pass in 5 as number of wins to end game
-    return playToCount(5);
+function playToFive() { // call playTo(x) and pass in 5 as number of wins to end game
+    return playTo(5);
 }
 
-function playToCount(goal) {
+function playTo(goal) {
     console.log("Let's play Rock, Paper, Scissors");
     var playerWins = 0;
     var computerWins = 0;
